@@ -38,7 +38,7 @@ def collect_args():
 
     parser.add_argument('--experiment_name', type=str, default='test')
     parser.add_argument('--wandb_name', type=str, default='baseline')
-    parser.add_argument('--if_wandb', type=bool, default=True)
+    parser.add_argument('--if_wandb', type=bool, default=False)
     parser.add_argument('--dataset_name', default='CXP', choices=['CXP', 'NIH', 'MIMIC_CXR', 'RadFusion', 'RadFusion4', 
     'HAM10000', 'HAM100004', 'Fitz17k', 'OCT', 'PAPILA', 'ADNI', 'ADNI3T', 'COVID_CT_MD','RadFusion_EHR',
     'MIMIC_III', 'eICU'])
